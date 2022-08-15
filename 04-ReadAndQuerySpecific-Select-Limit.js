@@ -45,7 +45,7 @@ const getDocument = async () => {
             {ctype:"frontend"}).select({name:1}).limit(1)
         console.log(result)
     } catch (err) {
-        Console.log(err);
+        console.log(err);
     }
 }
 getDocument();

@@ -45,7 +45,7 @@ const getDocument = async () => {
         const result = await Playlist.find()
         console.log(result)
     } catch (err) {
-        Console.log(err);
+        console.log(err);
     }
 }
 
